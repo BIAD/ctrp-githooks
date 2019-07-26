@@ -17,7 +17,7 @@ runner = TextTestRunner()
 passed = runner.run(suite).wasSuccessful()
 
 if not passed:
-    print ("""
+    print ("""\n
                     dS$$S$S$S$S$S$S$$Sb                    
                    :$$S^S$S$S$S$S$S^S$$;                   
                    SSP   `^$S$S$^'   TSS                   
