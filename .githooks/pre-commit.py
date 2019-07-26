@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 """
 A Github pre-commit hook based on Python to pylint source code. The source code here were adopted from
