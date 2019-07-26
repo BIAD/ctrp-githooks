@@ -152,7 +152,7 @@ def pylint_files():
         print(_futurize_str(out))
 
     if stop_commit:
-        print ("""
+        print ("""\n
  ____________________
 /                    \
 |        STOP        |
