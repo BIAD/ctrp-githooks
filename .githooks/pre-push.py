@@ -17,7 +17,8 @@ runner = TextTestRunner()
 passed = runner.run(suite).wasSuccessful()
 
 if not passed:
-    print ("""      dS$$S$S$S$S$S$S$$Sb                    
+    print ("""
+                    dS$$S$S$S$S$S$S$$Sb                    
                    :$$S^S$S$S$S$S$S^S$$;                   
                    SSP   `^$S$S$^'   TSS                   
                    $$       `"'       $$                   
@@ -41,7 +42,7 @@ if not passed:
 :OMMMMOOMMOMMOOMbTObTb.     :S;   .PdOPdMOOMMMMMOMMOMMMMMO;
 MOOMMMMOMMOMMOOMMMOObTSSg._.SSS._.PdOPdMOOMMMMOMMMMOMMMMOOM
 MMOMMMMOMMMOMMOOMMbT8bTSSSSSSSSSPd8OPdOOOMMMMOOMMMMOMMMOOMM
-MMOMMMOMMMMMOMMOOMMMbT8bTSSSSSPd88PdOOOOMMMMOOMMMMMMMMOOMMM
+MMOMMMOMMMMMOMMOOMMMbT8bTSSSSSPd88PdOOOOMMMMOOMMMMMMMMOOMMM    
     """)
     sys.exit(1)
 else:
