@@ -168,7 +168,10 @@ def pylint_files():
       \_(____)
          !  !
          !  !
-         \__/        
+         \__/   
+         
+You may skip this hook using the no-verify option. For example,
+git commit -no-verify -m "my message"     
         """)
         sys.exit(1)
     else:
