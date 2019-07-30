@@ -1,7 +1,7 @@
 # Git Hooks
 
 This repo stores git hooks, to be used in other projects. 
-Under `./githooks`, you will see the supporting language. 
+Under `./githooks`, you will see the supporting languages. 
 
 ## Python Repo Setup 
 1) include the folllwing Makef file in your project folder. 
@@ -16,7 +16,6 @@ githooks:
 
 	chmod +x .git/hooks/pre-commit
 	chmod +x .git/hooks/pre-push
-
 ```
 
 2) Run `make githooks` from your command line. 
