@@ -1,15 +1,10 @@
 #!/bin/bash
 #
-# An hook script to verify what is about to be committed.
-# Called by "git commit" with no arguments.  The hook should
-# exit with non-zero status after issuing an appropriate message if
-# it wants to stop the commit.
-# Pylint will exit if it is not 100% covered, we could set the threshold.
-# However, it would be better to change pylincrc config to allow certain rules.
-# Since we can have more control which rules can be broken.
+# A pre-commit hook to run Pylint on all files. Use the "pylintrc" config file.
+# It exclude these folder: venv, virtualenv, lib
+#
 
-# Run pylint and check the score
+
 echo "pre-commit: Running lint check"
-pylint --rcfile=./pylintrc
-
+find . -type d \( -path ./venv -o -path ./virtualenv -o -path ./lib \) -prune -o -iname '*.py' | xargs pylint --ignore=venv --ignore=virtualenv --ignore=lib --rcfile=pylintrc
 

@@ -13,7 +13,7 @@ init-hook="from pylint.config import find_pylintrc; import os, sys; sys.path.app
 load-plugins=
 
 # Add files or directories (base names, not paths) to the blacklist.
-ignore=CVS,venv
+ignore=CVS
 
 # Profiled execution.
 profile=no
@@ -323,5 +323,3 @@ int-import-graph=
 # Exceptions that will emit a warning when being caught. Defaults to
 # "Exception"
 overgeneral-exceptions=Exception
-
-
