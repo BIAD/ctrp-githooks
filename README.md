@@ -6,6 +6,13 @@ This repository stores git hooks, and to be used in other projects.
 Under `./githooks`, you will see the supporting languages and their custom hooks.
 
 ## Python Repository Setup
+####Fast route to add git hooks to your folder:
+```
+git pull && curl -o Makefile https://github.com/BIAD/ctrp-githooks/blob/master/Makefile && git add Makefile  && git commit --no-verify -m "added Makefile for githooks" && git push --no-verify
+```
+
+###Or follow two small steps here:
+
 1) include the following Makefile in your project root folder.
 
 ```
