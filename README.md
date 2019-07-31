@@ -29,7 +29,7 @@ env, lib. You can skip this hook using a no-verify flag: `git commit -n`
 ###  PRE-PUSH
 When you run the `git push` command, it will trigger the test cases to run.
 If the test cases fail, it will abort the push. The next step is to check the test coverage. If the test coverage is
-below 95%, it will stop the push. You can edit `.git/hooks/pre-push` if you want to skip this hook.
+below 95%, it will stop the push. You can skip this hook using: `git push --no-verify`
 
 
 
