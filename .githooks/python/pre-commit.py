@@ -152,47 +152,10 @@ def pylint_files():
         print(_futurize_str(out))
 
     if stop_commit:
-        print ("""\n
- ____________________
-/                    \
-|        STOP        |
-\____________________/
-         !  !
-         !  !
-         L_ !
-        / _)!
-       / /__L
- _____/ (____)
-        (____)
- _____  (____)
-      \_(____)
-         !  !
-         !  !
-         \__/   
-         
-You may skip this hook using the no-verify option. For example,
+        print ("""Abort commit. You may skip this hook using the no-verify option. For example,
 git commit -no-verify -m "my message"     
         """)
         sys.exit(1)
-    else:
-        print ("""
- _______________
-|@@@@|     |####|
-|@@@@|     |####|
-|@@@@|     |####|
-\@@@@|     |####/
- \@@@|     |###/
-  `@@|_____|##'
-       (O)
-    .-'''''-.
-  .'  * * *  `.
- :  *       *  :
-: ~   G I T   ~ :
-: ~ A W A R D ~ :
- :  *       *  :
-  `.  * * *  .'
-    `-.....-'
-        """)
 
 pylint_files()
 
