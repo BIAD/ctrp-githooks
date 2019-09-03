@@ -8,7 +8,7 @@ Under `./githooks`, you will see the supporting languages and their custom hooks
 ## Python Repository Setup
 ### For New Repo:
 ```
-git pull && curl -o Makefile https://github.com/BIAD/ctrp-githooks/blob/master/Makefile && git add Makefile  && git commit --no-verify -m "added Makefile for githooks" && git push --no-verify
+git pull && curl -o Makefile https://github.com/BIAD/ctrp-githooks/blob/master/.githooks/python/Makefile && git add Makefile  && git commit --no-verify -m "added Makefile for githooks" && git push --no-verify
 ```
 
 ### For Existing Repo:
